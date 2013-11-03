@@ -17,7 +17,7 @@ class Client(object):
     #make a POST request
     def _post(self, uri, payload):
         """payload=dict() of params. returns text body of response"""
-        return requests.get(
+        return requests.post(
         '{0}{1}'.format(self.api_url, uri),
         json.dumps(payload)
         ).text
