@@ -1,1 +1,5 @@
-API_URL = 'http://127.0.0.1:5000'
+API_URL = 'http://127.0.0.1:8000/api/'
+
+#test tokens.
+USER_TOKEN = 'd768864f-4444-11e3-b3e9-a8206637311c'
+ACCESS_TOKEN = 'd76cf397-4444-11e3-82e4-a8206637311c'
